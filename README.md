@@ -26,7 +26,7 @@ run eval function: `python eval.py`
 
 ---
 
-2.MultiStepLR()
+## 2.MultiStepLR()
 
 `milestones=[5, 10, 15], gamma=0.1`
 
@@ -43,7 +43,7 @@ run eval function: `python eval.py`
 
 ---
 
-3.StepLR()
+## 3.StepLR()
 
 `step_size=5, gamma=0.2`
 
@@ -60,7 +60,7 @@ run eval function: `python eval.py`
 
 ---
 
-4.LambdaLR() 
+## 4.LambdaLR() 
 
 `lambda1 = lambda epoch: (epoch) // 2`
 
@@ -77,7 +77,7 @@ run eval function: `python eval.py`
 
 ---
 
-5.ReduceLROnPlateau()
+## 5.ReduceLROnPlateau()
 
 run train function: `python train_ReduceLROnPlateau.py`
 
@@ -92,7 +92,7 @@ run eval function: `python eval.py`
 
 ---
 
-6.ExponentialLR()
+## 6.ExponentialLR()
 
 run train function: `python train_ExponentialLR.py`
 
@@ -108,7 +108,7 @@ run eval function: `python eval.py`
 
 ---
 
-7.CosineAnnealingLR()
+## 7.CosineAnnealingLR()
 
 `T_max=5`
 
