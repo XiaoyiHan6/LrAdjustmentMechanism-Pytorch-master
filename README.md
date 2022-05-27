@@ -87,7 +87,7 @@ run train function: `python train_ReduceLROnPlateau.py`
 
 run eval function: `python eval.py`
 
-|  AP |  14.82  |
+|  AP |  20.12  |
 |-----|---------|
 
 ---
