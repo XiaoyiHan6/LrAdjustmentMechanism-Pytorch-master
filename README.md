@@ -8,7 +8,7 @@ It's just a demo, so maybe it doesn't work well!
 
 ---
 
-1.adjust_learning_rate()
+## 1.adjust_learning_rate()
 
 Function description: subsection, every several (2) epochs, the first epoch is the serial number 0, so that the learning rate change multiplied by 0.1 epoch power number
 
