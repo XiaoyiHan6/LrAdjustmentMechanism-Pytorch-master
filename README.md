@@ -72,7 +72,7 @@ run train function: `python train_LambdaLR.py`
 
 run eval function: `python eval.py`
 
-|  AP |  14.82  |
+|  AP |  51.27  |
 |-----|---------|
 
 ---
