@@ -28,8 +28,7 @@ run eval function: `python eval.py`
 
 2.MultiStepLR()
 
-`milestones=[5, 10, 15],`
-
+`milestones=[5, 10, 15], gamma=0.1`
 
 run train function: `python train_MultiStepLR.py`
 
@@ -37,3 +36,26 @@ run train function: `python train_MultiStepLR.py`
 |-------------|-------|-------|---------|--------|
 |learning rate| 0.001 | 0.0001|  1e-05  |  1e-06 |
 
+run eval function: `python eval.py`
+
+|  AP |  18.16  |
+|-----|---------|
+
+---
+
+3.StepLR()
+
+`step_size=5, gamma=0.2`
+
+run train function: `python train_StepLR.py`
+
+|     epoch   |  0-4  |  5-9  |  10-14  |  15-19 | 
+|-------------|-------|-------|---------|--------|
+|learning rate| 0.001 | 0.0001|  1e-05  |  1e-06 |
+
+run eval function: `python eval.py`
+
+|  AP |  14.82  |
+|-----|---------|
+
+---
