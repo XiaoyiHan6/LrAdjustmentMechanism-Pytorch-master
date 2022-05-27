@@ -55,7 +55,7 @@ run train function: `python train_StepLR.py`
 
 run eval function: `python eval.py`
 
-|  AP |  14.82  |
+|  AP |  17.67  |
 |-----|---------|
 
 ---
