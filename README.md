@@ -81,9 +81,9 @@ run eval function: `python eval.py`
 
 run train function: `python train_ReduceLROnPlateau.py`
 
-|     epoch   |  0-11  |  12-18  | 4-5 |
-|-------------|--------|-------|-------|
-|learning rate|  0.001 | 0.001 | 0.002 |
+|     epoch   |  0-11  |  12-19 |
+|-------------|--------|--------|
+|learning rate|  0.001 | 0.0001 |
 
 run eval function: `python eval.py`
 
