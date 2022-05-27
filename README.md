@@ -149,7 +149,7 @@ run train function: `python train_ExponentialLR.py`
 
 run eval function: `python eval.py`
 
-|  AP |  14.82  |
+|  AP |  19.47  |
 |-----|---------|
 
 ---
