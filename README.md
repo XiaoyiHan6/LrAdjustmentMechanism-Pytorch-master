@@ -6,6 +6,9 @@ It's just a demo that observe the learning rate, so maybe it doesn't work well!
 
 **AlexNet** was taken as the network architecture(**image size** required for input was **227x227x3**), **CIFAR10** as the datset, **SGD** as the gradient descent function.
 
+You should create your own data(dataset), checkpoint(model save) and tenshorboard(loss visualization) file package.
+
+
 and there are some my Chinese communication websites such as CSDN and Quora(Chinese)-Zhihu where I explain this code.
 
 [CSDN](https://blog.csdn.net/XiaoyYidiaodiao/article/details/124678206?spm=1001.2014.3001.5501)
